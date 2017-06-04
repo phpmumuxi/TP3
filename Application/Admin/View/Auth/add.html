@@ -1,0 +1,43 @@
+<include file="Public/header" title="类型列表" />
+
+        <style>
+            .div_head{height:23px;width:97%;background:lightblue;margin-left:20px;}
+        </style>
+        <div class="div_head" style="font-size:16px;margin-top:70px;">
+                <span class="span1" style="float:left;">当前位置是：{$bread['first']}-》{$bread['second']}</span>
+                <span style="float:right;margin-right:20px;font-weight:bold;">
+                    <a style="text-decoration:none;" href="{$bread['third'][1]}">【{$bread['third'][0]}】</a>
+                </span>
+            <div style="clear:both"></div>
+        </div>
+<div style="margin:12px 20px;">
+   <form method="post" action="__ACTION__">
+    <table border="1" width="100%">
+        <tr style="font-weight:bold;">
+            <td>权限名称</td>
+				<td><input type="text" name="auth_name" /></td>
+        </tr>
+		  <tr style="font-weight:bold;">
+            <td>父级权限</td>
+				<td><select name="auth_pid">
+					<option value="0">--请选择--</option>
+					<foreach name="info" item='v'>
+					<option value="{$v.auth_id}">
+					{:str_repeat('&nbsp;&nbsp;&nbsp;',$v['auth_level'])}{$v.auth_name}</option>
+					</foreach>
+				</select></td>
+        </tr>
+		  <tr style="font-weight:bold;">
+            <td>控制器</td>
+				<td><input type="text" name="auth_c" /></td>
+        </tr>
+		   <tr style="font-weight:bold;">
+            <td>操作方法</td>
+				<td><input type="text" name="auth_a" /></td>
+        </tr>
+		   <td colspan=2 style="text-align:center"><input type="submit" value='添加'/></td>
+		  </tr>
+    </table>
+	</form>
+</div>
+<include file="Public/footer" />

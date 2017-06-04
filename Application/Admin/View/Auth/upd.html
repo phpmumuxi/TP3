@@ -1,0 +1,41 @@
+<include file="Public/header" title="类型列表" />
+
+        <style>
+            .div_head{height:23px;width:97%;background:lightblue;margin-left:20px;}
+        </style>
+        <div class="div_head" style="font-size:16px;margin-top:70px;">
+                <span class="span1" style="float:left;">当前位置是：{$bread['first']}-》{$bread['second']}</span>
+                <span style="float:right;margin-right:20px;font-weight:bold;">
+                    <a style="text-decoration:none;" href="{$bread['third'][1]}">【{$bread['third'][0]}】</a>
+                </span>
+            <div style="clear:both"></div>
+        </div>
+<div style="margin:12px 20px;">
+   <form method="post" action="__ACTION__">
+	<input type="hidden" name="auth_id" value="{$v.auth_id}"/>
+    <table class="tables" border="1" width="100%">
+           <tr style="font-weight: bold;">
+					 <td width="10%">权限名称</td><td><input type="text" name="auth_name" value="{$v.auth_name}"/></td></tr>
+					 <tr><td width="10%">父级权限</td>
+					   <td><select name="auth_pid">
+						<option value="0">--请选择--</option>
+                  <foreach name='info' item='vv'>
+						  <if condition="$vv['auth_id']==$v['auth_pid']">
+						  <option value="{$vv.auth_id}" selected="selected">
+						  <else/>
+						  <option value="{$vv.auth_id}">
+						  </if>
+						  {:str_repeat('&nbsp;&nbsp;&nbsp;',$vv['auth_level'])}{$vv.auth_name}
+						  </option>
+                  </foreach>
+					   </select></td></tr>
+					 <tr><td width="10%">控制器</td><td><input type="text" name="auth_c" value="{$v.auth_c}" /></td></tr>
+					 <tr><td width="10%">操作方法</td><td><input type="text" name="auth_a" value="{$v.auth_a}" /></td></tr>
+            </tr>
+				</tr>
+		   <td colspan=2 style="text-align:center"><input type="submit" value='修改'/></td>
+		  </tr>
+    </table>
+	</form>
+</div>
+<include file="Public/footer" />

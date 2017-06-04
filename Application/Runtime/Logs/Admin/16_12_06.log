@@ -1,0 +1,350 @@
+[ 2016-12-06T18:16:22+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getinfo.html?type_id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ts_manager` [ RunTime:0.0050s ]
+SQL: SELECT r.role_ac FROM ts_manager m INNER JOIN ts_role r on m.role_id=r.role_id  WHERE `manager_name` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_attr` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `ts_attr` WHERE `type_id` = 5  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-12-06T18:19:16+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getinfo.html?type_id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_manager` [ RunTime:0.0060s ]
+SQL: SELECT r.role_ac FROM ts_manager m INNER JOIN ts_role r on m.role_id=r.role_id  WHERE `manager_name` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_attr` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ts_attr` WHERE `type_id` = 5  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T18:19:29+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getinfo.html?type_id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ts_manager` [ RunTime:0.0060s ]
+SQL: SELECT r.role_ac FROM ts_manager m INNER JOIN ts_role r on m.role_id=r.role_id  WHERE `manager_name` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ts_attr` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ts_attr` WHERE `type_id` = 5  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T18:22:15+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getinfo.html?type_id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ts_manager` [ RunTime:0.0050s ]
+SQL: SELECT r.role_ac FROM ts_manager m INNER JOIN ts_role r on m.role_id=r.role_id  WHERE `manager_name` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_attr` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ts_attr` WHERE `type_id` = 5  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T18:22:59+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getinfo.html?type_id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ts_manager` [ RunTime:0.0050s ]
+SQL: SELECT r.role_ac FROM ts_manager m INNER JOIN ts_role r on m.role_id=r.role_id  WHERE `manager_name` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ts_attr` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ts_attr` WHERE `type_id` = 5  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T18:23:11+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getinfo.html?type_id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ts_manager` [ RunTime:0.0070s ]
+SQL: SELECT r.role_ac FROM ts_manager m INNER JOIN ts_role r on m.role_id=r.role_id  WHERE `manager_name` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_attr` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ts_attr` WHERE `type_id` = 5  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-12-06T18:23:29+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getinfo.html?type_id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ts_manager` [ RunTime:0.0060s ]
+SQL: SELECT r.role_ac FROM ts_manager m INNER JOIN ts_role r on m.role_id=r.role_id  WHERE `manager_name` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ts_attr` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `ts_attr` WHERE `type_id` = 5  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T18:25:02+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getinfo.html?type_id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_manager` [ RunTime:0.0070s ]
+SQL: SELECT r.role_ac FROM ts_manager m INNER JOIN ts_role r on m.role_id=r.role_id  WHERE `manager_name` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_attr` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ts_attr` WHERE `type_id` = 5  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-12-06T18:25:20+08:00 ] 127.0.0.1 /index.php/Admin/Good/delimg.html?gi_id=57
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_manager` [ RunTime:0.0070s ]
+SQL: SELECT r.role_ac FROM ts_manager m INNER JOIN ts_role r on m.role_id=r.role_id  WHERE `manager_name` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_good_img` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ts_good_img` WHERE `gi_id` = 57 LIMIT 1   [ RunTime:0.0010s ]
+SQL: DELETE FROM `ts_good_img` WHERE `gi_id` = 57 [ RunTime:0.0590s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T18:25:24+08:00 ] 127.0.0.1 /index.php/Admin/Good/delimg.html?gi_id=45
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_manager` [ RunTime:0.0050s ]
+SQL: SELECT r.role_ac FROM ts_manager m INNER JOIN ts_role r on m.role_id=r.role_id  WHERE `manager_name` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ts_good_img` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ts_good_img` WHERE `gi_id` = 45 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./public/uploads/2016-12-05/5844d07e72700.jpg): No such file or directory D:\wamp\www\web\Thinks130\Application\Admin\Controller\GoodController.class.php 第 100 行.
+NOTIC: [2] unlink(./public/uploads/2016-12-05/small_5844d07e72700.jpg): No such file or directory D:\wamp\www\web\Thinks130\Application\Admin\Controller\GoodController.class.php 第 101 行.
+SQL: DELETE FROM `ts_good_img` WHERE `gi_id` = 45 [ RunTime:0.0480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-12-06T18:25:27+08:00 ] 127.0.0.1 /index.php/Admin/Good/delimg.html?gi_id=50
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_manager` [ RunTime:0.0050s ]
+SQL: SELECT r.role_ac FROM ts_manager m INNER JOIN ts_role r on m.role_id=r.role_id  WHERE `manager_name` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ts_good_img` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ts_good_img` WHERE `gi_id` = 50 LIMIT 1   [ RunTime:0.0010s ]
+SQL: DELETE FROM `ts_good_img` WHERE `gi_id` = 50 [ RunTime:0.0700s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T18:28:50+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getinfo.html?type_id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_manager` [ RunTime:0.0060s ]
+SQL: SELECT r.role_ac FROM ts_manager m INNER JOIN ts_role r on m.role_id=r.role_id  WHERE `manager_name` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_attr` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ts_attr` WHERE `type_id` = 5  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T18:28:57+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getinfo.html?type_id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ts_manager` [ RunTime:0.0040s ]
+SQL: SELECT r.role_ac FROM ts_manager m INNER JOIN ts_role r on m.role_id=r.role_id  WHERE `manager_name` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_attr` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ts_attr` WHERE `type_id` = 6  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T18:28:59+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getinfo.html?type_id=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ts_manager` [ RunTime:0.0050s ]
+SQL: SELECT r.role_ac FROM ts_manager m INNER JOIN ts_role r on m.role_id=r.role_id  WHERE `manager_name` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_attr` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ts_attr` WHERE `type_id` = 7  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T18:29:02+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getinfo.html?type_id=8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ts_manager` [ RunTime:0.0050s ]
+SQL: SELECT r.role_ac FROM ts_manager m INNER JOIN ts_role r on m.role_id=r.role_id  WHERE `manager_name` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_attr` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ts_attr` WHERE `type_id` = 8  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T18:29:04+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getinfo.html?type_id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ts_manager` [ RunTime:0.0050s ]
+SQL: SELECT r.role_ac FROM ts_manager m INNER JOIN ts_role r on m.role_id=r.role_id  WHERE `manager_name` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ts_attr` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `ts_attr` WHERE `type_id` = 5  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T18:29:14+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getinfo.html?type_id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ts_manager` [ RunTime:0.0040s ]
+SQL: SELECT r.role_ac FROM ts_manager m INNER JOIN ts_role r on m.role_id=r.role_id  WHERE `manager_name` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ts_attr` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ts_attr` WHERE `type_id` = 5  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-12-06T18:29:17+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getinfo.html?type_id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_manager` [ RunTime:0.0040s ]
+SQL: SELECT r.role_ac FROM ts_manager m INNER JOIN ts_role r on m.role_id=r.role_id  WHERE `manager_name` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ts_attr` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ts_attr` WHERE `type_id` = 6  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T18:29:18+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getinfo.html?type_id=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_manager` [ RunTime:0.0040s ]
+SQL: SELECT r.role_ac FROM ts_manager m INNER JOIN ts_role r on m.role_id=r.role_id  WHERE `manager_name` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ts_attr` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ts_attr` WHERE `type_id` = 7  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T18:29:20+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getinfo.html?type_id=8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ts_manager` [ RunTime:0.0040s ]
+SQL: SELECT r.role_ac FROM ts_manager m INNER JOIN ts_role r on m.role_id=r.role_id  WHERE `manager_name` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ts_attr` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ts_attr` WHERE `type_id` = 8  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-06T18:29:24+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getinfo.html?type_id=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ts_manager` [ RunTime:0.0040s ]
+SQL: SELECT r.role_ac FROM ts_manager m INNER JOIN ts_role r on m.role_id=r.role_id  WHERE `manager_name` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ts_attr` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ts_attr` WHERE `type_id` = 9  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T18:29:30+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getinfo.html?type_id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ts_manager` [ RunTime:0.0050s ]
+SQL: SELECT r.role_ac FROM ts_manager m INNER JOIN ts_role r on m.role_id=r.role_id  WHERE `manager_name` = 'admin' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ts_attr` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ts_attr` WHERE `type_id` = 5  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-12-06T18:29:36+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getinfo.html?type_id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ts_manager` [ RunTime:0.0060s ]
+SQL: SELECT r.role_ac FROM ts_manager m INNER JOIN ts_role r on m.role_id=r.role_id  WHERE `manager_name` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ts_attr` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ts_attr` WHERE `type_id` = 5  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T18:29:57+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getinfo.html?type_id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ts_manager` [ RunTime:0.0050s ]
+SQL: SELECT r.role_ac FROM ts_manager m INNER JOIN ts_role r on m.role_id=r.role_id  WHERE `manager_name` = 'admin' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ts_attr` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ts_attr` WHERE `type_id` = 5  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T18:30:06+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getinfo.html?type_id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ts_manager` [ RunTime:0.0050s ]
+SQL: SELECT r.role_ac FROM ts_manager m INNER JOIN ts_role r on m.role_id=r.role_id  WHERE `manager_name` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ts_attr` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ts_attr` WHERE `type_id` = 5  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T18:30:14+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getinfo.html?type_id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `ts_manager` [ RunTime:0.0050s ]
+SQL: SELECT r.role_ac FROM ts_manager m INNER JOIN ts_role r on m.role_id=r.role_id  WHERE `manager_name` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ts_attr` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `ts_attr` WHERE `type_id` = 5  [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-12-06T18:30:17+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getinfo.html?type_id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ts_manager` [ RunTime:0.0050s ]
+SQL: SELECT r.role_ac FROM ts_manager m INNER JOIN ts_role r on m.role_id=r.role_id  WHERE `manager_name` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_attr` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ts_attr` WHERE `type_id` = 5  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-06T18:34:16+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getinfo.html?type_id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_manager` [ RunTime:0.0070s ]
+SQL: SELECT r.role_ac FROM ts_manager m INNER JOIN ts_role r on m.role_id=r.role_id  WHERE `manager_name` = 'tom' LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2016-12-06T18:36:35+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getinfo.html?type_id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `ts_manager` [ RunTime:0.0100s ]
+SQL: SELECT r.role_ac FROM ts_manager m INNER JOIN ts_role r on m.role_id=r.role_id  WHERE `manager_name` = 'jack' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-12-06T18:36:38+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getinfo.html?type_id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `ts_manager` [ RunTime:0.0070s ]
+SQL: SELECT r.role_ac FROM ts_manager m INNER JOIN ts_role r on m.role_id=r.role_id  WHERE `manager_name` = 'jack' LIMIT 1   [ RunTime:0.0010s ]
+

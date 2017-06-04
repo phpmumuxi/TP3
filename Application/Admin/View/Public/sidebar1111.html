@@ -1,0 +1,40 @@
+<ul class="nav navbar-nav side-nav">
+    <li><a href="{:U('index/index')}" ><i class="fa fa-dashboard"></i> 仪表盘</a></li>
+    <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-reorder"></i> 商品管理</a>
+		  <ul class="dropdown-menu">
+            <li><a href="{:U('Good/showlist')}">【-】商品列表</a></li>
+            <li><a href="{:U('Good/add')}">【-】添加商品</a></li>
+            <li><a href="{:U('Type/showlist')}">【-】商品类型</a></li>
+            <li><a href="{:U('Categery/showlist')}">【-】商品分类</a></li>
+            <li><a href="{:U('Brand/showlist')}">【-】商品品牌</a></li>
+        </ul>
+    </li>
+    <li class="dropdown">
+        <a href="{:U('post/index')}"><i class="fa fa-edit"></i> 文章管理</a>
+    </li>
+    <li class="dropdown">
+        <a href="{:U('page/index')}"><i class="fa fa-file-text-o"></i> 单页管理 </a>
+    </li>
+     <li class="dropdown">
+		  <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-users"></i>用户管理</a>
+		  <ul class="dropdown-menu">
+            <li><a href="{:U('Good/showlist')}">【-】商品列表</a></li>
+            <li><a href="{:U('Good/add')}">【-】添加商品</a></li>
+            <li><a href="{:U('Auth/showlist')}">【-】权限管理</a></li>
+            <li><a href="{:U('Role/showlist')}">【-】角色管理</a></li>
+            <li><a href="{:U('Manager/showlist')}">【-】管理员管理</a></li>
+        </ul>
+    </li>
+     <li class="dropdown">
+        <a href="{:U('links/index')}" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-link"></i> 链接管理</a>
+    </li>
+    <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-cog"></i> 系统设置 <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+            <li><a href="{:U('setting/index')}">自定义字段</a></li>
+            <li><a href="#">系统优化</a></li>
+            <li><a href="#">缓存管理</a></li>
+        </ul>
+    </li>
+</ul>

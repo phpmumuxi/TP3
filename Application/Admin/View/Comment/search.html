@@ -1,0 +1,35 @@
+<include file="Public/header" title="意见反馈" />
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+         
+            
+            
+        </style>
+    </head>
+    <body>
+        <table style="margin-left:180px;font-size:30px">
+            <tr height="100px">
+               <th width="200px">用户信息</th> 
+               <th width="200px">商品信息</th> 
+               <th width="200px">评论详情</th> 
+               <th width="200px">评论时间</th> 
+              
+               <th width="200px">回复详情</th>
+            </tr>
+            <foreach name="arr" item="v">
+            <tr  height="100px">
+              <td>{$v.uid}</td>
+              <td>{$v.good_id}</td>  
+              <td>{$v.content}</td>  
+              <td>{$v.time}</td>  
+              <td>{$v.rcontent}</td>  
+            </tr>
+            </foreach>
+        </table>
+    </body>
+</html>
+<include file="Public/footer" />

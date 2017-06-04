@@ -1,0 +1,40 @@
+<include file="Public/header" title="类型列表" />
+
+        <style>
+            .div_head{height:23px;width:97%;background:lightblue;margin-left:20px;}
+        </style>
+        <div class="div_head" style="font-size:16px;margin-top:70px;">
+                <span class="span1" style="float:left;">当前位置是：{$bread['first']}-》{$bread['second']}</span>
+                <span style="float:right;margin-right:20px;font-weight:bold;">
+                    <a style="text-decoration:none;" href="{$bread['third'][1]}">【{$bread['third'][0]}】</a>
+                </span>
+            <div style="clear:both"></div>
+        </div>
+<div style="margin:12px 20px;">
+   <form method="post" action="__ACTION__">
+	<input type="hidden" name="cat_id" value="{$info.cat_id}"/>
+    <table border="1" width="100%">
+        <tr style="font-weight:bold;">
+            <td>父级分类</td><td><select name="cat_fid">
+                <option value="0">顶级分类</option>
+                <foreach name="infos" item="v">
+					    <if condition="$info['cat_fid']==$v['cat_id']">
+                   <option value="{$v.cat_id}" selected>
+						 <else/>
+						 <option value="{$v.cat_id}">
+						 </if>
+						{:str_repeat('&nbsp;&nbsp;&nbsp;',$v['level'])}{$v.cat_name}
+						  </option>
+                </foreach>
+            </select></td>
+        </tr>
+		  <tr style="font-weight:bold;">
+            <td>子分类名</td><td><input type="text" name="cat_name" value="{$info.cat_name}"/></td>
+        </tr>
+        <tr>
+		   <td colspan=2 style="text-align:center"><input type="submit" value='修改'/></td>
+		  </tr>
+    </table>
+	</form>
+</div>
+<include file="Public/footer" />

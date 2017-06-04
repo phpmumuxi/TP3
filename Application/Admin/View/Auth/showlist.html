@@ -1,0 +1,48 @@
+<include file="Public/header" title="类型列表" />
+
+        <style>
+            .div_head{height:23px;width:97%;background:lightblue;margin-left:20px;}
+
+        </style>
+        <div class="div_head" style="font-size:16px;margin-top:70px;">
+                <span class="span1" style="float:left;">当前位置是：{$bread['first']}-》{$bread['second']}</span>
+                <span style="float:right;margin-right:20px;font-weight:bold;">
+                    <a style="text-decoration:none;" href="{$bread['third'][1]}">【{$bread['third'][0]}】</a>
+                </span>
+            <div style="clear:both"></div>
+        </div>
+<div style="margin:12px 20px;">
+    <table class="tables" border="1" width="100%">
+           <tr style="font-weight: bold;">
+                <td width="5%">序号</td><td width="10%">权限名称</td>
+					 <td width="10%">父级ID</td><td width="10%">控制器</td>
+					 <td width="10%">操作方法</td><td width="20%">全路径</td>
+					 <td width="10%">等级</td>
+                <td align="center" colspan='2' >操作</td>
+            </tr>
+            <foreach name='info' item='v'>
+            <tr>
+                <td>{$v.auth_id}</td>
+                <td>{:str_repeat('&nbsp;&nbsp;&nbsp;',$v['auth_level'])}{$v.auth_name}</td>
+                <td>{$v.auth_pid}</td>
+                <td>{$v.auth_c}</td>
+                <td>{$v.auth_a}</td>
+                <td>{$v.auth_path}</td>
+                <td>{$v.auth_level}</td>
+                <td><a href="{:U('Admin/Auth/upd',array('auth_id'=>$v['auth_id']))}">修改</a></td>
+                <td><a href="javascript:;" onclick="confirmdel({$v.auth_id})">删除</a></td>
+            </tr>
+            </foreach>
+    </table>
+</div>
+<script>
+function confirmdel(id){
+  if(window.confirm('你确定要删除吗？')){
+    location.href="{:U('Admin/Auth/del/id/"+id+"')}";
+  }
+}
+</script>
+
+
+
+<include file="Public/footer" />

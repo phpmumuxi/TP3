@@ -1,0 +1,12 @@
+[ 2016-11-18T19:02:51+08:00 ] ::1 /web/Thinks130/index.php
+ERR: 无法加载控制器:Index
+
+[ 2016-11-18T19:04:08+08:00 ] ::1 /web/Thinks130/index.php/Admin/Index/index
+ERR: 无法加载控制器:Admin
+
+[ 2016-11-18T19:15:17+08:00 ] ::1 /web/Thinks130/index.php
+ERR: 无法加载控制器:Index
+
+[ 2016-11-18T19:22:34+08:00 ] ::1 /web/Thinks130/index.php
+ERR: 无法加载控制器:Index
+

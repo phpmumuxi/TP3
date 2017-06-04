@@ -1,0 +1,114 @@
+<include file="Public/header" title="评论列表" />
+
+<style>
+    .pages a,.pages span {
+    display:inline-block;
+    padding:2px 5px;
+    margin:0 1px;
+    border:1px solid #f0f0f0;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+}
+.pages a,.pages li {
+    display:inline-block;
+    list-style: none;
+    text-decoration:none; color:#58A0D3;
+}
+.pages a.first,.pages a.prev,.pages a.next,.pages a.end{
+    margin:0;
+}
+.pages a:hover{
+    border-color:#50A8E6;
+}
+.pages span.current{
+    background:#50A8E6;
+    color:#FFF;
+    font-weight:700;
+    border-color:#50A8E6;
+}
+</style>
+<nav class="breadcrumb"><i class="fa fa-home"></i>  首页 <span class="c-gray en">&gt;</span> 评论管理 <span class="c-gray en">&gt;</span> 评论列表 </nav>
+<div id="page-wrapper">
+    
+    <div class="row">
+        <div class="col-md-6">
+            <a href="" class="btn btn-success">评论列表</a>
+        </div>
+        <div class="col-md-6">
+            <form action="{:U('Comment/search')}" method="post">
+                <div class="form-group input-group">
+                    <input type="text" class="form-control" name="key" placeholder="输入商品ID或者评论内容搜索">
+                    <span class="input-group-btn">
+                      <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
+                    </span>
+                </div>
+            </form>
+        </div>
+    </div>
+    <table class="table table-hover table-striped">
+        <thead>
+            <tr>
+                <th>编号</th>
+                <th>商品信息</th>
+                <th>用户信息</th>
+                <th>评论内容</th>
+				<th>回复内容</th>
+		        <th>评论时间</th>
+                <th>操作</th>
+            </tr>
+        </thead>
+        <tbody>
+        <foreach name="arr" item="v">
+            <tr>
+                <td>{$v.cid}</td>
+                <td>{$v.good_name}</td>
+                <td><a href="javascript:;" class="member_show">{$v.uname}</a></td>
+                <td>{$v.content}</td>
+		<td>{$v.rcontent}</td>
+                <td>{$v.time}</td>
+                <td><a href="#none"><span class="sp">回复</span></a> | <a href="{:U('Comment/delete',array('cid'=>$v['cid']))}" style="color:red;" onclick="javascript:return del('您真的确定要删除吗？\n\n删除后将不能恢复!');">删除</a>
+                </td>
+            </tr>
+            <tr>
+                <td colspan='7'>
+                    <div style='height:100px;text-align: center;display:none;' class='d1'>
+                        <form action="{:U('Comment/rcontent')}" method="post">
+                            <input type='hidden'name='cid'value='{$v["cid"]}'>
+                            <textarea name='rcontent' style="resize:none;width:700px"></textarea><br/>
+                           <input type='submit'name='sub'style='background:#E4393C;width:80px;height:38px;position:relative;left:280px;top:10px;color:white'>
+                           <input type="text" name="time" value="{$Think.now}"style="position:relative;left:290px;top:15px;border:0px">
+                        </form>
+                    </div>
+                </td>
+            </tr>
+        </foreach>
+          <tr>
+              <td colspan="6" bgcolor="#FFFFFF" style="text-align:center;"><div class="pages">
+                        {$str}
+                </div></td>  
+            </tr>
+        </tbody>
+    </table>
+  
+</div>
+
+<script type='text/javascript' src="__PUBLIC__/admin/js/jquery1.8.3.min.js"></script>
+
+<js file="__PUBLIC__/admin/js/show.js"/>
+<script type='text/javascript' src="__PUBLIC__/admin/layer/layer.js"></script>
+
+<script type="text/javascript">
+  $(".member_show").click(function(){
+	var num = $(this).html();
+		layer.open({
+		type: 2,
+		title: '用户信息',
+		maxmin: true,
+		shadeClose: true, //点击遮罩关闭层
+		area : ['300px' , '400px'],
+		content: "http://localhost/thinkroot/index.php?m=Admin&c=Comment&a=member_info&uname="+num
+	});
+  })
+</script>
+<include file="Public/footer" />

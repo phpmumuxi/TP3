@@ -1,0 +1,40 @@
+<include file="Public/header" title="类型列表" />
+
+        <style>
+            .div_head{height:23px;width:97%;background:lightblue;margin-left:20px;}
+        </style>
+        <div class="div_head" style="font-size:16px;margin-top:70px;">
+                <span class="span1" style="float:left;">当前位置是：{$bread['first']}-》{$bread['second']}</span>
+                <span style="float:right;margin-right:20px;font-weight:bold;">
+                    <a style="text-decoration:none;" href="{$bread['third'][1]}">【{$bread['third'][0]}】</a>
+                </span>
+            <div style="clear:both"></div>
+        </div>
+<div style="margin:12px 20px;">
+   <form method="post" action="__ACTION__">
+    <table border="1" width="100%">
+        <tr style="font-weight:bold;">
+            <td>属性名称</td><td><input type="text" name="attr_name" /></td>
+        </tr>
+		  <tr style="font-weight:bold;">
+            <td>属性值</td><td><input type="text" name="attr_value" /><font color='red'>多个属性值用","分开</font></td>
+        </tr>
+		  <tr style="font-weight:bold;">
+            <td>所属类型</td><td><select name="type_id">
+					<option value="0">-请选择-</option>
+					<foreach name='info' item="vo">
+					<option value="{$vo.type_id}">{$vo.type_name}</option>
+					</foreach>
+            </select>类型必须选择</td>
+        </tr>
+        <tr>
+		   <td colspan=2 style="text-align:center"><input type="submit" value='添加'/></td>
+		  </tr>
+    </table>
+	</form>
+</div>
+
+
+
+
+<include file="Public/footer" />

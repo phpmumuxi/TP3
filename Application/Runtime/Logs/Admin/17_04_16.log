@@ -1,0 +1,12 @@
+[ 2017-04-16T15:53:47+08:00 ] 127.0.0.1 /web/Thinks130/index.php/Admin/Attribute/getinfo.html?type_id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ts_manager` [ RunTime:0.0050s ]
+SQL: SELECT r.role_ac FROM ts_manager m INNER JOIN ts_role r on m.role_id=r.role_id  WHERE `manager_name` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_attr` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `ts_attr` WHERE `type_id` = 5  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

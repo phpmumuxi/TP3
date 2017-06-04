@@ -1,0 +1,15 @@
+<ul class="nav navbar-nav side-nav">
+   <li class="dropup"><a href="{:U('index/index')}" ><i class="fa fa-dashboard"></i>后台管理</a></li>
+   <foreach name="aua" item="v">
+    <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-reorder"></i> {$v.auth_name}<b class="caret"></b></a>
+		  <ul class="dropdown-menu">
+          <foreach name="aub" item="vv">
+            <if condition="$vv['auth_pid']==$v['auth_id']">
+            <li><a href="__MODULE__/{$vv.auth_c}/{$vv.auth_a}">【-】{$vv.auth_name}</a></li>
+            </if>
+          </foreach>
+        </ul>
+    </li>
+    </foreach>
+</ul>

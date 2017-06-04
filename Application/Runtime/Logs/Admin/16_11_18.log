@@ -1,0 +1,18 @@
+[ 2016-11-18T19:06:38+08:00 ] ::1 /web/Thinks130/index.php/Admin/User/login.html
+ERR: 无法加载控制器:User
+
+[ 2016-11-18T19:11:20+08:00 ] ::1 /web/Thinks130/index.php/Admin/User/login.html
+ERR: 模板不存在:./Application/Admin/View/User/login.html
+
+[ 2016-11-18T19:11:44+08:00 ] ::1 /web/Thinks130/index.php/Admin/login/verify.html
+ERR: 无法加载控制器:Login
+
+[ 2016-11-18T19:12:29+08:00 ] ::1 /web/Thinks130/index.php/Admin/login/verify.html
+ERR: 无法加载控制器:Login
+
+[ 2016-11-18T19:22:46+08:00 ] ::1 /web/Thinks130/index.php/Admin/login/verify.html
+ERR: 无法加载控制器:Login
+
+[ 2016-11-18T19:23:47+08:00 ] ::1 /web/Thinks130/index.php/Admin/login/verify.html&random=573
+ERR: 无法加载控制器:Login
+

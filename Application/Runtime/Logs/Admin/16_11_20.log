@@ -1,0 +1,429 @@
+[ 2016-11-20T10:58:00+08:00 ] ::1 /web/Thinks130/index.php/Admin/Good/index.html
+ERR: 无法加载控制器:Good
+
+[ 2016-11-20T10:58:07+08:00 ] ::1 /web/Thinks130/index.php/Admin/Good/index.html
+ERR: 无法加载控制器:Good
+
+[ 2016-11-20T10:58:16+08:00 ] ::1 /web/Thinks130/index.php/Admin/member/index.html
+ERR: 无法加载控制器:Member
+
+[ 2016-11-20T11:02:11+08:00 ] ::1 /web/Thinks130/index.php/Admin/setting/index.html
+ERR: 无法加载控制器:Setting
+
+[ 2016-11-20T11:12:56+08:00 ] ::1 /web/Thinks130/index.php/Admin/Good/showlist.html
+ERR: 无法加载控制器:Good
+
+[ 2016-11-20T14:03:22+08:00 ] ::1 /web/Thinks130/index.php/Admin/Type/add
+ERR: 1364:Field 'type_name' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `ts_type` () VALUES ()
+
+[ 2016-11-20T14:04:49+08:00 ] ::1 /web/Thinks130/index.php/Admin/Type/add
+ERR: 1364:Field 'type_name' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `ts_type` () VALUES ()
+
+[ 2016-11-20T14:49:52+08:00 ] ::1 /web/Thinks130/index.php/Admin/page/index.html
+ERR: 无法加载控制器:Page
+
+[ 2016-11-20T14:55:32+08:00 ] ::1 /web/Thinks130/index.php/Admin/Type/del/id/1.html
+ERR: 非法操作:del
+
+[ 2016-11-20T16:32:11+08:00 ] ::1 /web/Thinks130/index.php/Admin/Type/upd
+ERR: 1406:Data too long for column 'type_name' at row 1
+ [ SQL语句 ] : UPDATE `ts_type` SET `type_name`='I(post.type_name)' WHERE ( 3 )
+
+[ 2016-11-20T16:33:25+08:00 ] ::1 /web/Thinks130/index.php/Admin/Type/upd
+ERR: 1406:Data too long for column 'type_name' at row 1
+ [ SQL语句 ] : UPDATE `ts_type` SET `type_name`='I(post.type_name)' WHERE ( type_id=3 )
+
+[ 2016-11-20T16:33:46+08:00 ] ::1 /web/Thinks130/index.php/Admin/Type/upd
+ERR: 1406:Data too long for column 'type_name' at row 1
+ [ SQL语句 ] : UPDATE `ts_type` SET `type_name`='I(post.type_name)' WHERE ( type_id=3 )
+
+[ 2016-11-20T16:35:44+08:00 ] ::1 /web/Thinks130/index.php/Admin/Type/upd
+ERR: 1406:Data too long for column 'type_name' at row 1
+ [ SQL语句 ] : UPDATE `ts_type` SET `type_name`='I(\'post.type_name\')' WHERE ( type_id=3 )
+
+[ 2016-11-20T17:32:44+08:00 ] ::1 /web/Thinks130/index.php/Admin/Attribute/add.html
+ERR: 模板不存在:./Application/Admin/View/Attribute/add.html
+
+[ 2016-11-20T17:56:22+08:00 ] ::1 /web/Thinks130/index.php/Admin/Attribute/showlist.html
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `ts_type` WHERE ( type_id= ) 
+
+[ 2016-11-20T18:00:29+08:00 ] ::1 /web/Thinks130/index.php/Admin/Attribute/showlist.html
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `ts_type` WHERE ( type_id= ) 
+
+[ 2016-11-20T18:11:22+08:00 ] ::1 /web/Thinks130/index.php/Admin/Attribute/showlist.html
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `ts_attr` WHERE ( type_id= ) 
+
+[ 2016-11-20T19:13:49+08:00 ] ::1 /web/Thinks130/index.php/Admin/Attribute/showlist.html
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `ts_attr` WHERE ( type_id= ) 
+
+[ 2016-11-20T19:15:05+08:00 ] ::1 /web/Thinks130/index.php/Admin/Attribute/add
+ERR: 1146:La table 'thinks130.ts_attribute' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `ts_attribute`
+
+[ 2016-11-20T19:40:08+08:00 ] ::1 /web/Thinks130/index.php/Admin/Attribute/showlist.html
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `ts_attr` WHERE ( type_id= ) 
+
+[ 2016-11-20T19:45:48+08:00 ] ::1 /web/Thinks130/index.php/Admin/Attribute/showlist.html
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `ts_attr` WHERE ( type_id= ) 
+
+[ 2016-11-20T20:23:12+08:00 ] ::1 /web/Thinks130/index.php/Admin/Attribute/upd
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : UPDATE `ts_type` SET `type_name`='' WHERE ( type_id= )
+
+[ 2016-11-20T20:39:02+08:00 ] ::1 /web/Thinks130/index.php/Admin/Attribute/upd
+ERR: 1062:Duplicata du champ '0' pour la clef 'PRIMARY'
+ [ SQL语句 ] : UPDATE `ts_type` SET `type_id`='0'
+
+[ 2016-11-20T20:40:52+08:00 ] ::1 /web/Thinks130/index.php/Admin/Attribute/upd
+ERR: 1062:Duplicata du champ '6' pour la clef 'PRIMARY'
+ [ SQL语句 ] : UPDATE `ts_type` SET `type_id`='6'
+
+[ 2016-11-20T20:41:43+08:00 ] ::1 /web/Thinks130/index.php/Admin/Attribute/upd
+ERR: 1062:Duplicata du champ '6' pour la clef 'PRIMARY'
+ [ SQL语句 ] : UPDATE `ts_type` SET `type_id`='6'
+
+[ 2016-11-20T20:55:55+08:00 ] ::1 /web/Thinks130/index.php/Admin/Attibute/showlist.html
+ERR: 无法加载控制器:Attibute
+
+[ 2016-11-20T20:58:31+08:00 ] ::1 /web/Thinks130/index.php/Admin/Attibute/showlist.html
+ERR: 无法加载控制器:Attibute
+
+[ 2016-11-20T21:55:08+08:00 ] ::1 /web/Thinks130/index.php/Admin/Attribute/getinfo.html?type_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `ts_type` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_type` WHERE `type_id` = 3  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-20T21:55:10+08:00 ] ::1 /web/Thinks130/index.php/Admin/Attribute/getinfo.html?type_id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_type` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_type` WHERE `type_id` = 5  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-20T21:55:14+08:00 ] ::1 /web/Thinks130/index.php/Admin/Attribute/getinfo.html?type_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ts_type` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_type` WHERE `type_id` = 3  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-20T21:55:26+08:00 ] ::1 /web/Thinks130/index.php/Admin/Attribute/getinfo.html?type_id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ts_type` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_type` WHERE `type_id` = 5  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-20T21:57:16+08:00 ] ::1 /web/Thinks130/index.php/Admin/Attribute/getinfo.html?type_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_type` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_type` WHERE `type_id` = 3  [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion D:\wamp\www\web\Thinks130\Application\Admin\Controller\AttributeController.class.php 第 85 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-20T21:57:21+08:00 ] ::1 /web/Thinks130/index.php/Admin/Attribute/getinfo.html?type_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_type` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_type` WHERE `type_id` = 3  [ RunTime:0.0010s ]
+NOTIC: [8] Array to string conversion D:\wamp\www\web\Thinks130\Application\Admin\Controller\AttributeController.class.php 第 85 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-20T21:57:23+08:00 ] ::1 /web/Thinks130/index.php/Admin/Attribute/getinfo.html?type_id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `ts_type` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_type` WHERE `type_id` = 6  [ RunTime:0.0010s ]
+NOTIC: [8] Array to string conversion D:\wamp\www\web\Thinks130\Application\Admin\Controller\AttributeController.class.php 第 85 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-20T21:57:25+08:00 ] ::1 /web/Thinks130/index.php/Admin/Attribute/getinfo.html?type_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_type` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_type` WHERE `type_id` = 3  [ RunTime:0.0010s ]
+NOTIC: [8] Array to string conversion D:\wamp\www\web\Thinks130\Application\Admin\Controller\AttributeController.class.php 第 85 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-20T21:57:47+08:00 ] ::1 /web/Thinks130/index.php/Admin/Attribute/getinfo.html?type_id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_type` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_type` WHERE `type_id` = 5  [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion D:\wamp\www\web\Thinks130\Application\Admin\Controller\AttributeController.class.php 第 85 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-20T21:57:49+08:00 ] ::1 /web/Thinks130/index.php/Admin/Attribute/getinfo.html?type_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_type` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_type` WHERE `type_id` = 3  [ RunTime:0.0010s ]
+NOTIC: [8] Array to string conversion D:\wamp\www\web\Thinks130\Application\Admin\Controller\AttributeController.class.php 第 85 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-20T21:57:53+08:00 ] ::1 /web/Thinks130/index.php/Admin/Attribute/getinfo.html?type_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ts_type` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_type` WHERE `type_id` = 3  [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion D:\wamp\www\web\Thinks130\Application\Admin\Controller\AttributeController.class.php 第 85 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-20T21:59:17+08:00 ] ::1 /web/Thinks130/index.php/Admin/Attribute/getinfo.html?type_id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ts_type` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_type` WHERE `type_id` = 5  [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion D:\wamp\www\web\Thinks130\Application\Admin\Controller\AttributeController.class.php 第 85 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-20T21:59:21+08:00 ] ::1 /web/Thinks130/index.php/Admin/Attribute/getinfo.html?type_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_type` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_type` WHERE `type_id` = 3  [ RunTime:0.0010s ]
+NOTIC: [8] Array to string conversion D:\wamp\www\web\Thinks130\Application\Admin\Controller\AttributeController.class.php 第 85 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-20T22:00:10+08:00 ] ::1 /web/Thinks130/index.php/Admin/Attribute/getinfo.html?type_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ts_type` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_type` WHERE `type_id` = 3  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-20T22:00:14+08:00 ] ::1 /web/Thinks130/index.php/Admin/Attribute/getinfo.html?type_id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_type` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_type` WHERE `type_id` = 5  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-20T22:00:17+08:00 ] ::1 /web/Thinks130/index.php/Admin/Attribute/getinfo.html?type_id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ts_type` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ts_type` WHERE `type_id` = 6  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-20T22:00:42+08:00 ] ::1 /web/Thinks130/index.php/Admin/Attribute/getinfo.html?type_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_type` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_type` WHERE `type_id` = 3  [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion D:\wamp\www\web\Thinks130\Application\Admin\Controller\AttributeController.class.php 第 86 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-20T22:00:43+08:00 ] ::1 /web/Thinks130/index.php/Admin/Attribute/getinfo.html?type_id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_type` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_type` WHERE `type_id` = 5  [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion D:\wamp\www\web\Thinks130\Application\Admin\Controller\AttributeController.class.php 第 86 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-20T22:01:43+08:00 ] ::1 /web/Thinks130/index.php/Admin/Attribute/getinfo.html?type_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `ts_type` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_type` WHERE `type_id` = 3  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-20T22:07:04+08:00 ] ::1 /web/Thinks130/index.php/Admin/Attribute/getinfo.html?type_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ts_type` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_type` WHERE `type_id` = 3  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-20T22:07:07+08:00 ] ::1 /web/Thinks130/index.php/Admin/Attribute/getinfo.html?type_id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ts_type` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_type` WHERE `type_id` = 5  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-20T22:07:10+08:00 ] ::1 /web/Thinks130/index.php/Admin/Attribute/getinfo.html?type_id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_type` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_type` WHERE `type_id` = 6  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-11-20T22:07:20+08:00 ] ::1 /web/Thinks130/index.php/Admin/Attribute/getinfo.html?type_id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `ts_type` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_type` WHERE `type_id` = 6  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-20T22:07:24+08:00 ] ::1 /web/Thinks130/index.php/Admin/Attribute/getinfo.html?type_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_type` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_type` WHERE `type_id` = 3  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-20T22:08:33+08:00 ] ::1 /web/Thinks130/index.php/Admin/Attribute/getinfo.html?type_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_type` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_type` WHERE `type_id` = 3  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-20T22:08:35+08:00 ] ::1 /web/Thinks130/index.php/Admin/Attribute/getinfo.html?type_id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_type` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ts_type` WHERE `type_id` = 5  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-20T22:08:37+08:00 ] ::1 /web/Thinks130/index.php/Admin/Attribute/getinfo.html?type_id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ts_type` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ts_type` WHERE `type_id` = 6  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-20T22:08:39+08:00 ] ::1 /web/Thinks130/index.php/Admin/Attribute/getinfo.html?type_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ts_type` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_type` WHERE `type_id` = 3  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-20T22:08:43+08:00 ] ::1 /web/Thinks130/index.php/Admin/Attribute/getinfo.html?type_id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `ts_type` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_type` WHERE `type_id` = 5  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-20T22:08:56+08:00 ] ::1 /web/Thinks130/index.php/Admin/Attribute/getinfo.html?type_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_type` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_type` WHERE `type_id` = 3  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-11-20T22:10:20+08:00 ] ::1 /web/Thinks130/index.php/Admin/Attribute/getinfo.html?type_id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ts_type` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_type` WHERE `type_id` = 6  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-20T22:10:21+08:00 ] ::1 /web/Thinks130/index.php/Admin/Attribute/getinfo.html?type_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ts_type` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_type` WHERE `type_id` = 3  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

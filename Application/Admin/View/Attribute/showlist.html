@@ -1,0 +1,62 @@
+<include file="Public/header" title="类型列表" />
+
+        <style>
+            .div_head{height:23px;width:97%;background:lightblue;margin-left:20px;}
+
+        </style>
+        <div class="div_head" style="font-size:16px;margin-top:70px;">
+                <span class="span1" style="float:left;">当前位置是：{$bread['first']}-》{$bread['second']}</span>
+                <span style="float:right;margin-right:20px;font-weight:bold;">
+                    <a style="text-decoration:none;" href="{$bread['third'][1]}">【{$bread['third'][0]}】</a>
+                </span>
+            <div style="clear:both"></div>
+        </div>
+<div style="margin:12px 20px;">
+<p>按商品类型显示：<select id="sel" onchange="selchange()">
+   <foreach name="info" item="vv">
+	<equal name="infos[0]['type_id']" value="$vv['type_id']">
+	  <option value="{$vv.type_id}" selected>{$vv.type_name}</option>
+	<else />
+	  <option value="{$vv.type_id}">{$vv.type_name}</option>
+	</equal>
+	</foreach>
+</select></p>
+    <table class="tables" border="1" width="100%">
+           <tr style="font-weight: bold;">
+                <td width="18%">序号</td><td width="18%">名称</td>
+					 <td width="18%" id="mm">属性值</td><td width="18%">类型</td>
+                <td align="center" colspan='3' >操作</td>
+            </tr>
+    </table>
+</div>
+<script src="__PUBLIC__/admin/js/jquery1.8.3.min.js"></script>
+<script type="text/javascript">
+function	selchange(){
+	var id=$("#sel option:selected").val();
+	$.get("{:U('Attribute/getinfo')}",'type_id='+id,function(res){
+		var h="";
+      $.each(res,function(k,v){
+		   h+="<tr>";
+		   h+="<td>"+v.attr_id+"</td>";
+		   h+="<td>"+v.attr_name+"</td>";
+		   h+="<td>"+v.attr_value+"</td>";
+		   h+="<td>"+v.type_id+"</td>";
+		   h+="<td><a href=\"{:U('Admin/Attribute/upd/id/"+v.attr_id+"')}\">修改</a></td>";
+			h+="<td><a href=\"javascript:;\" onclick=\"confirmdel("+v.attr_id+")\">删除</a></td>";
+			h+="</tr>";
+		});
+		$(".tables tr:not(:first)").remove();
+		$(".tables tr:first").after(h);
+	},'json');
+}
+selchange();
+function confirmdel(id){
+  if(window.confirm('你确定要删除吗？')){
+    location.href="{:U('Admin/Attribute/del/id/"+id+"')}";
+  }
+}
+</script>
+
+
+
+<include file="Public/footer" />

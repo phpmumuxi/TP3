@@ -1,0 +1,66 @@
+[ 2016-12-01T09:36:14+08:00 ] ::1 /thinkroot/index.php/Admin/Comment/index
+ERR: 无法加载控制器:Comment
+
+[ 2016-12-01T09:37:25+08:00 ] ::1 /thinkroot/index.php/Admin/Order/showlist
+ERR: 无法加载控制器:Order
+
+[ 2016-12-01T10:05:35+08:00 ] ::1 /thinkroot/index.php/Admin/Comment/index
+ERR: 1054:Unknown column 'user1.uid' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `ts_comment` inner join ts_user1 on user1.uid=comment.uid  ORDER BY cid asc LIMIT 0,2  
+
+[ 2016-12-01T10:13:59+08:00 ] ::1 /thinkroot/index.php?m=Admin&c=Comment&a=member_info&uid=lxy123
+ERR: 1054:Unknown column 'lxy123' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ts_user1` WHERE ( uid=lxy123 ) 
+
+[ 2016-12-01T10:15:15+08:00 ] ::1 /thinkroot/index.php?m=Admin&c=Comment&a=member_info&uname=lxy123
+ERR: 1054:Unknown column 'lxy123' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ts_user1` WHERE ( uname=lxy123 ) 
+
+[ 2016-12-01T10:15:20+08:00 ] ::1 /thinkroot/index.php?m=Admin&c=Comment&a=member_info&uname=lxy123
+ERR: 1054:Unknown column 'lxy123' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ts_user1` WHERE ( uname=lxy123 ) 
+
+[ 2016-12-01T10:15:30+08:00 ] ::1 /thinkroot/index.php?m=Admin&c=Comment&a=member_info&uname=lxy123
+ERR: 1054:Unknown column 'lxy123' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ts_user1` WHERE ( uname=lxy123 ) 
+
+[ 2016-12-01T10:17:20+08:00 ] ::1 /thinkroot/index.php?m=Admin&c=Comment&a=member_info&uname=lxy123
+ERR: 1054:Unknown column 'lxy123' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ts_user1` WHERE ( uname=lxy123 ) 
+
+[ 2016-12-01T10:19:36+08:00 ] ::1 /thinkroot/index.php?m=Admin&c=Comment&a=member_info&uname=hang123
+ERR: 1054:Unknown column 'hang123' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ts_user1` WHERE ( uname=hang123 ) 
+
+[ 2016-12-01T10:20:27+08:00 ] ::1 /thinkroot/index.php?m=Admin&c=Comment&a=member_info&uname=hang123
+ERR: 1054:Unknown column 'hang123' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ts_user1` WHERE ( uname=hang123 ) 
+
+[ 2016-12-01T10:22:33+08:00 ] ::1 /thinkroot/index.php?m=Admin&c=Comment&a=member_info&uname=lxy123
+ERR: 1054:Unknown column 'lxy123' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ts_user1` WHERE ( uname=lxy123 ) 
+
+[ 2016-12-01T10:22:47+08:00 ] ::1 /thinkroot/index.php?m=Admin&c=Comment&a=member_info&uname=lxy123
+ERR: 1054:Unknown column 'lxy123' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ts_user1` WHERE ( uname=lxy123 ) 
+
+[ 2016-12-01T10:23:28+08:00 ] ::1 /thinkroot/index.php?m=Admin&c=Comment&a=member_info&uname=lxy123
+ERR: 1054:Unknown column 'lxy123' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ts_user1` WHERE ( uname=lxy123 ) 
+
+[ 2016-12-01T10:46:39+08:00 ] ::1 /thinkroot/index.php?m=Admin&c=Comment&a=member_info&uname=hang123
+ERR: 1054:Unknown column 'hang123' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ts_user1` WHERE ( uname=hang123 ) 
+
+[ 2016-12-01T10:50:36+08:00 ] ::1 /thinkroot/index.php?m=Admin&c=Comment&a=member_info&uname=lxy123
+ERR: 1054:Unknown column 'lxy123' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ts_user1` WHERE ( uname=lxy123 ) 
+
+[ 2016-12-01T10:51:14+08:00 ] ::1 /thinkroot/index.php?m=Admin&c=Comment&a=member_info&uname=lxy123
+ERR: 1054:Unknown column 'lxy123' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ts_user1` WHERE ( uname=lxy123 ) 
+
+[ 2016-12-01T10:54:44+08:00 ] ::1 /thinkroot/index.php?m=Admin&c=Comment&a=member_info&uname=lxy123
+ERR: 1054:Unknown column 'lxy123' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ts_user1` WHERE ( uname=lxy123 ) 
+

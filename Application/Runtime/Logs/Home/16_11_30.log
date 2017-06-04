@@ -1,0 +1,228 @@
+[ 2016-11-30T09:26:38+08:00 ] ::1 /web/Thinks130/index.php/Home/Good/cartgood/good_id/13.html
+ERR: 1054:Champ '$ids' inconnu dans where clause
+ [ SQL语句 ] : SELECT * FROM `ts_good` WHERE ( good_id in ($ids) ) 
+
+[ 2016-11-30T09:29:46+08:00 ] ::1 /web/Thinks130/index.php/Home/Good/cartgood/good_id/11.html
+ERR: 1054:Champ '$ids' inconnu dans where clause
+ [ SQL语句 ] : SELECT * FROM `ts_good` WHERE ( good_id in ($ids) ) 
+
+[ 2016-11-30T09:32:12+08:00 ] ::1 /web/Thinks130/index.php/Home/Good/cartgood/good_id/15.html
+ERR: 1054:Champ '$ids' inconnu dans where clause
+ [ SQL语句 ] : SELECT * FROM `ts_good` WHERE ( good_id in ($ids) ) 
+
+[ 2016-11-30T09:34:28+08:00 ] ::1 /web/Thinks130/index.php/Home/Good/index.html
+ERR: 非法操作:index
+
+[ 2016-11-30T09:44:38+08:00 ] ::1 /web/Thinks130/index.php/Home/Good/cartgood/good_id/8.html
+ERR: 1054:Champ 'Array' inconnu dans where clause
+ [ SQL语句 ] : SELECT * FROM `ts_good` WHERE ( good_id in (Array) ) 
+
+[ 2016-11-30T10:33:42+08:00 ] ::1 /web/Thinks130/index.php/Home/Good/cartgood.html
+ERR: 1064:Erreur de syntaxe près de ') )' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `ts_good` WHERE ( good_id in (11,16,9,8,7,7,7,7,7,7,7,7,7,7,7,7,7,7,) ) 
+
+[ 2016-11-30T10:33:59+08:00 ] ::1 /web/Thinks130/index.php/Home/Good/cartgood.html
+ERR: 1064:Erreur de syntaxe près de ') )' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `ts_good` WHERE ( good_id in (11,16,9,8,7,7,7,7,7,7,7,7,7,7,7,7,7,7,,) ) 
+
+[ 2016-11-30T10:34:02+08:00 ] ::1 /web/Thinks130/index.php/Home/Good/cartgood/good_id/7.html
+ERR: 1064:Erreur de syntaxe près de ',7) )' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `ts_good` WHERE ( good_id in (11,16,9,8,7,7,7,7,7,7,7,7,7,7,7,7,7,7,,,7) ) 
+
+[ 2016-11-30T10:38:09+08:00 ] ::1 /web/Thinks130/index.php/Home/Good/cartgood.html
+ERR: 1064:Erreur de syntaxe près de ') )' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `ts_good` WHERE ( good_id in (13,) ) 
+
+[ 2016-11-30T10:40:27+08:00 ] ::1 /web/Thinks130/index.php/Home/Good/cartgood/good_id/13.html
+ERR: 1064:Erreur de syntaxe près de '13) )' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `ts_good` WHERE ( good_id in (13,,13) ) 
+
+[ 2016-11-30T10:40:55+08:00 ] ::1 /web/Thinks130/index.php/Home/Good/cartgood/good_id/13.html
+ERR: 1064:Erreur de syntaxe près de '13,13) )' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `ts_good` WHERE ( good_id in (13,,13,13) ) 
+
+[ 2016-11-30T10:47:45+08:00 ] ::1 /web/Thinks130/index.php/Home/Good/cartgood/good_id/13.html
+ERR: 1064:Erreur de syntaxe près de '13,13,13) )' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `ts_good` WHERE ( good_id in (13,,13,13,13) ) 
+
+[ 2016-11-30T10:48:09+08:00 ] ::1 /web/Thinks130/index.php/Home/Good/cartgood.html
+ERR: 1064:Erreur de syntaxe près de ') )' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `ts_good` WHERE ( good_id in (15,) ) 
+
+[ 2016-11-30T10:48:13+08:00 ] ::1 /web/Thinks130/index.php/Home/Good/cartgood.html
+ERR: 1064:Erreur de syntaxe près de ') )' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `ts_good` WHERE ( good_id in (15,,) ) 
+
+[ 2016-11-30T10:48:14+08:00 ] ::1 /web/Thinks130/index.php/Home/Good/cartgood.html
+ERR: 1064:Erreur de syntaxe près de ',) )' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `ts_good` WHERE ( good_id in (15,,,) ) 
+
+[ 2016-11-30T10:48:21+08:00 ] ::1 /web/Thinks130/index.php/Home/Good/cartgood/good_id/15.html
+ERR: 1064:Erreur de syntaxe près de ',,15) )' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `ts_good` WHERE ( good_id in (15,,,,15) ) 
+
+[ 2016-11-30T11:00:43+08:00 ] ::1 /web/Thinks130/index.php/Home/Good/cartgood.html
+ERR: 1064:Erreur de syntaxe près de ') )' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `ts_good` WHERE ( good_id in (14,12,8,7,) ) 
+
+[ 2016-11-30T11:04:31+08:00 ] ::1 /web/Thinks130/index.php/Home/Good/cartgood.html
+ERR: 1064:Erreur de syntaxe près de ') )' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `ts_good` WHERE ( good_id in (14,12,8,7,) ) 
+
+[ 2016-11-30T11:04:33+08:00 ] ::1 /web/Thinks130/index.php/Home/Good/cartgood/good_id/8.html
+ERR: 1064:Erreur de syntaxe près de ') )' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `ts_good` WHERE ( good_id in (14,12,8,7,) ) 
+
+[ 2016-11-30T11:10:20+08:00 ] ::1 /web/Thinks130/index.php/Home/Good/cartgood.html
+ERR: 1064:Erreur de syntaxe près de ') )' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `ts_good` WHERE ( good_id in (12,13,14,7,) ) 
+
+[ 2016-11-30T11:11:21+08:00 ] ::1 /web/Thinks130/index.php/Home/Good/cartgood.html
+ERR: 1064:Erreur de syntaxe près de ') )' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `ts_good` WHERE ( good_id in (12,13,14,7,) ) 
+
+[ 2016-11-30T11:11:34+08:00 ] ::1 /web/Thinks130/index.php/Home/Good/cartgood/good_id/9.html
+ERR: 1064:Erreur de syntaxe près de '9) )' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `ts_good` WHERE ( good_id in (12,13,14,7,,9) ) 
+
+[ 2016-11-30T11:19:04+08:00 ] ::1 /web/Thinks130/index.php/Home/Good/cartgood/good_id/9.html
+ERR: 1064:Erreur de syntaxe près de '9) )' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `ts_good` WHERE ( good_id in (12,13,14,7,,9) ) 
+
+[ 2016-11-30T11:19:10+08:00 ] ::1 /web/Thinks130/index.php/Home/Good/cartgood/good_id/10.html
+ERR: 1064:Erreur de syntaxe près de '9,10) )' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `ts_good` WHERE ( good_id in (12,13,14,7,,9,10) ) 
+
+[ 2016-11-30T11:20:07+08:00 ] ::1 /web/Thinks130/index.php/Home/Good/cartgood/good_id/10.html
+ERR: 1064:Erreur de syntaxe près de 'exsit (12,13,14,7,,9,10) )' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `ts_good` WHERE ( good_id exsit (12,13,14,7,,9,10) ) 
+
+[ 2016-11-30T11:21:00+08:00 ] ::1 /web/Thinks130/index.php/Home/Good/cartgood.html
+ERR: 1064:Erreur de syntaxe près de ') )' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `ts_good` WHERE ( good_id in (10,) ) 
+
+[ 2016-11-30T11:21:16+08:00 ] ::1 /web/Thinks130/index.php/Home/Good/cartgood/good_id/9.html
+ERR: 1064:Erreur de syntaxe près de '9) )' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `ts_good` WHERE ( good_id in (10,,9) ) 
+
+[ 2016-11-30T11:21:59+08:00 ] ::1 /web/Thinks130/index.php/Home/Good/cartgood.html
+ERR: 1064:Erreur de syntaxe près de ') )' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `ts_good` WHERE ( good_id in (10,9,) ) 
+
+[ 2016-11-30T11:22:37+08:00 ] ::1 /web/Thinks130/index.php/Home/Good/cartgood/good_id/9.html
+ERR: 1064:Erreur de syntaxe près de ') )' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `ts_good` WHERE ( good_id in (10,9,) ) 
+
+[ 2016-11-30T11:22:49+08:00 ] ::1 /web/Thinks130/index.php/Home/Good/cartgood/good_id/11.html
+ERR: 1064:Erreur de syntaxe près de '11) )' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `ts_good` WHERE ( good_id in (10,9,,11) ) 
+
+[ 2016-11-30T11:23:02+08:00 ] ::1 /web/Thinks130/index.php/Home/Good/cartgood/good_id/16.html
+ERR: 1064:Erreur de syntaxe près de '11,16) )' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `ts_good` WHERE ( good_id in (10,9,,11,16) ) 
+
+[ 2016-11-30T11:23:34+08:00 ] ::1 /web/Thinks130/index.php/Home/Good/cartgood.html
+ERR: 1064:Erreur de syntaxe près de ') )' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `ts_good` WHERE ( good_id in (11,) ) 
+
+[ 2016-11-30T11:24:36+08:00 ] ::1 /web/Thinks130/index.php/Home/Good/cartgood/good_id/11.html
+ERR: 1064:Erreur de syntaxe près de '14) )' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `ts_good` WHERE ( good_id in (12,,14) ) 
+
+[ 2016-11-30T11:39:48+08:00 ] ::1 /web/Thinks130/index.php/Home/Good/cartgood/good_id/13.html
+ERR: 1064:Erreur de syntaxe près de '11,11,11,11,13) )' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `ts_good` WHERE ( good_id in (11,11,11,11,,11,11,11,11,13) ) 
+
+[ 2016-11-30T11:40:16+08:00 ] ::1 /web/Thinks130/index.php/Home/Good/cartgood.html
+ERR: 1064:Erreur de syntaxe près de ') )' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `ts_good` WHERE ( good_id in (13,13,) ) 
+
+[ 2016-11-30T11:43:30+08:00 ] ::1 /web/Thinks130/index.php/Home/Good/cartgood.html
+ERR: 1064:Erreur de syntaxe près de ') )' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `ts_good` WHERE ( good_id in (13,13,,) ) 
+
+[ 2016-11-30T11:49:36+08:00 ] ::1 /web/Thinks130/index.php/Home/Good/cartgood.html
+ERR: 1064:Erreur de syntaxe près de ') )' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `ts_good` WHERE ( good_id in (14,12,) ) 
+
+[ 2016-11-30T11:49:56+08:00 ] ::1 /web/Thinks130/index.php/Home/Good/cartgood/good_id/12.html
+ERR: 1064:Erreur de syntaxe près de ') )' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `ts_good` WHERE ( good_id in (14,12,) ) 
+
+[ 2016-11-30T11:51:06+08:00 ] ::1 /web/Thinks130/index.php/Home/Good/cartgood/good_id/8.html
+ERR: 1064:Erreur de syntaxe près de ') )' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `ts_good` WHERE ( good_id in (12,13,) ) 
+
+[ 2016-11-30T11:54:42+08:00 ] ::1 /web/Thinks130/index.php/Home/Good/cartgood/good_id/8.html
+ERR: 1064:Erreur de syntaxe près de '8) )' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `ts_good` WHERE ( good_id in (0,15,,8) ) 
+
+[ 2016-11-30T11:55:08+08:00 ] ::1 /web/Thinks130/index.php/Home/Good/cartgood.html
+ERR: 1064:Erreur de syntaxe près de '8) )' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `ts_good` WHERE ( good_id in (0,15,,8) ) 
+
+[ 2016-11-30T11:58:32+08:00 ] ::1 /web/Thinks130/index.php/Home/Good/cartgood.html
+ERR: 1064:Erreur de syntaxe près de '8) )' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `ts_good` WHERE ( good_id in (0,15,,8) ) 
+
+[ 2016-11-30T11:58:34+08:00 ] ::1 /web/Thinks130/index.php/Home/Good/cartgood/good_id/15.html
+ERR: 1064:Erreur de syntaxe près de '8) )' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `ts_good` WHERE ( good_id in (0,15,,8) ) 
+
+[ 2016-11-30T13:04:31+08:00 ] ::1 /web/Thinks130/index.php/Home/Good/cartgood/good_id/15.html
+ERR: 1064:Erreur de syntaxe près de '15) )' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `ts_good` WHERE ( good_id in (14,13,,15) ) 
+
+[ 2016-11-30T13:06:17+08:00 ] ::1 /web/Thinks130/index.php/Home/Good/cartgood/good_id/8.html
+ERR: 1064:Erreur de syntaxe près de '8) )' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `ts_good` WHERE ( good_id in (12,13,,8) ) 
+
+[ 2016-11-30T13:33:48+08:00 ] ::1 /web/Thinks130/index.php/Home/Good/cartgood/good_id/8.html
+ERR: 1064:Erreur de syntaxe près de '8) )' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `ts_good` WHERE ( good_id in (13,12,,8) ) 
+
+[ 2016-11-30T13:34:21+08:00 ] ::1 /web/Thinks130/index.php/Home/Good/cartgood/good_id/8.html
+ERR: 1064:Erreur de syntaxe près de '8) )' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `ts_good` WHERE ( good_id in (13,12,,8) ) 
+
+[ 2016-11-30T13:34:23+08:00 ] ::1 /web/Thinks130/index.php/Home/Good/cartgood/good_id/8.html
+ERR: 1064:Erreur de syntaxe près de '8) )' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `ts_good` WHERE ( good_id in (13,12,,8) ) 
+
+[ 2016-11-30T13:56:49+08:00 ] ::1 /web/Thinks130/index.php/Home/Good/cartgood/good_id/8.html
+ERR: 1064:Erreur de syntaxe près de '8) )' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `ts_good` WHERE ( good_id in (12,,8) ) 
+
+[ 2016-11-30T13:57:03+08:00 ] ::1 /web/Thinks130/index.php/Home/Good/cartgood/good_id/9.html
+ERR: 1064:Erreur de syntaxe près de '8,9) )' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `ts_good` WHERE ( good_id in (12,,8,9) ) 
+
+[ 2016-11-30T14:18:20+08:00 ] ::1 /web/Thinks130/index.php/Home/Good/cartgood.html
+ERR: 1064:Erreur de syntaxe près de ') )' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `ts_good` WHERE ( good_id in () ) 
+
+[ 2016-11-30T14:18:28+08:00 ] ::1 /web/Thinks130/index.php/Home/Good/cartgood.html
+ERR: 1064:Erreur de syntaxe près de ') )' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `ts_good` WHERE ( good_id in () ) 
+
+[ 2016-11-30T14:18:29+08:00 ] ::1 /web/Thinks130/index.php/Home/Good/cartgood.html
+ERR: 1064:Erreur de syntaxe près de ') )' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `ts_good` WHERE ( good_id in () ) 
+
+[ 2016-11-30T14:18:29+08:00 ] ::1 /web/Thinks130/index.php/Home/Good/cartgood.html
+ERR: 1064:Erreur de syntaxe près de ') )' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `ts_good` WHERE ( good_id in () ) 
+
+[ 2016-11-30T14:21:47+08:00 ] ::1 /web/Thinks130/index.php/Home/Good/cartgood.html
+ERR: 1064:Erreur de syntaxe près de ') )' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `ts_good` WHERE ( good_id in () ) 
+
+[ 2016-11-30T15:19:35+08:00 ] ::1 /web/Thinks130/index.php/Home/Good/register.html
+ERR: 非法操作:register
+
+[ 2016-11-30T15:19:39+08:00 ] ::1 /web/Thinks130/index.php/Home/Good/login.html
+ERR: 非法操作:login
+
+[ 2016-11-30T15:19:55+08:00 ] ::1 /web/Thinks130/index.php/Home/Good/index.html
+ERR: 非法操作:index
+

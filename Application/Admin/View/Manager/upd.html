@@ -1,0 +1,41 @@
+<include file="Public/header" title="类型列表" />
+
+        <style>
+            .div_head{height:23px;width:97%;background:lightblue;margin-left:20px;}
+        </style>
+        <div class="div_head" style="font-size:16px;margin-top:70px;">
+                <span class="span1" style="float:left;">当前位置是：{$bread['first']}-》{$bread['second']}</span>
+                <span style="float:right;margin-right:20px;font-weight:bold;">
+                    <a style="text-decoration:none;" href="{$bread['third'][1]}">【{$bread['third'][0]}】</a>
+                </span>
+            <div style="clear:both"></div>
+        </div>
+<div style="margin:12px 20px;">
+   <form method="post" action="__ACTION__">
+	<input type="hidden" name="manager_id" value="{$vo.manager_id}"/>
+    <table border="1" width="100%">
+        <tr style="font-weight:bold;">
+            <td style="text-align:right" width="10%">
+				管理员名称：</td>
+				<td><input type="text" name="manager_name" value="{$vo.manager_name}"/></td>
+        </tr>
+		  <tr style="font-weight:bold;">
+            <td style="text-align:right">
+				角色名称：</td>
+				<td><select name="role_id">
+					<foreach name="info" item='v'>
+					<if condition="$v['role_id']==$vo['role_id']">
+					<option value="{$v.role_id}" selected>
+					<else/>
+					<option value="{$v.role_id}" >
+					</if>
+					{$v.role_name}</option>
+					</foreach>
+				</select></td>
+        </tr>
+		   <td colspan=2 style="text-align:center"><input type="submit" value='修改'/></td>
+		  </tr>
+    </table>
+	</form>
+</div>
+<include file="Public/footer" />

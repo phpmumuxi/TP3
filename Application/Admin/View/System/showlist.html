@@ -1,0 +1,32 @@
+<include file="Public/header" title="分类列表" />
+<table width="98%" align="center" border="0" cellpadding="3" cellspacing="1" bgcolor="#66cc99" style="margin-bottom:8px;margin-top:8px;">
+    <tr>
+        <td background="__PUBLIC__/Admin/images/wbg.gif" bgcolor="#EEF4EA" class="title" colspan="2">
+            <span><img src="__PUBLIC__/Admin/images/arr3.gif" style="margin-right:10px;">网站配置列表</span>
+        </td>
+    </tr>
+    <tr bgcolor="#FFFFFF">
+        <td>
+            <table width="50%" border="1" cellpadding="2" cellspacing="1" bgcolor="#CFCFCF" align="center" style="margin-top:8px">
+                <tr align="center" bgcolor="#FBFCE2" height="25">
+                    <td width="10%">配置编号</td>
+                    <td width="10%">配置名称</td>
+                    <td width="10%">配置标题</td>
+                    <td width="10%">配置类型</td>
+                    <td colspan="2">操作</td>
+                </tr>
+                <foreach name="list" item="vo">
+                <tr align="center" bgcolor="#FFFFFF" height="26" align="center" onMouseMove="javascript:this.bgColor = '#FCFDEE';" onMouseOut="javascript:this.bgColor = '#FFFFFF';">
+                    <td>{$vo.ts_id}</td>
+                    <td>{$vo.ts_name}</td>
+                    <td>{$vo.ts_title}</td>
+                    <td>{$vo.ts_type}</td>
+                    <td><a href="{:U('System/upd',array('ts_id'=>$vo['ts_id']))}">修改</a></td>
+                    <td><a href="{:U('System/del',array('ts_id'=>$vo['ts_id']))}">删除</a></td>
+                </tr>
+                </foreach>	
+            </table>
+        </td>
+    </tr>
+</table>
+<include file="Public/footer" />

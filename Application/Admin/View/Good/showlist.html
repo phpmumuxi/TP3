@@ -1,0 +1,54 @@
+<include file="Public/header" title="类型列表" />
+
+        <style>
+            .div_head{height:23px;width:97%;background:lightblue;margin-left:20px;}
+        </style>
+        <div class="div_head" style="font-size:16px;margin-top:70px;">
+                <span class="span1" style="float:left;">当前位置是：{$bread['first']}-》{$bread['second']}</span>
+                <span style="float:right;margin-right:20px;font-weight:bold;">
+                    <a style="text-decoration:none;" href="{$bread['third'][1]}">【{$bread['third'][0]}】</a>
+                </span>
+            <div style="clear:both"></div>
+        </div>
+<div style="margin:12px 20px;">
+    <table border="1" width="100%">
+           <tr style="font-weight: bold;">
+                <td width="10%">序号</td>
+					 <td width="10%">商品名称</td>
+					 <td width="12%">商品logo</td>
+					 <td width="25%">商品描述</td>
+					 <td width="10%">商品库存</td>
+					 <td width="8%">商品类型</td>
+					 <td width="8%">商品分类</td>
+					 <td width="8%">商品品牌</td>
+                <td align="center" colspan='2'>操作</td>
+            </tr>
+           <foreach name='info' item='v'>
+           <tr>
+                <td>{$v.good_id}</td>
+					 <td>{$v.good_name}</td>
+					 <td><img src='__ROOT__/{$v.good_thumb}' width="100px" height="100px"/></td>
+					 <td>{$v.good_descript}</td>
+					 <td>{$v.good_num}</td>
+					 <td>{$v.type_id}</td>
+					 <td>{$v.cat_id}</td>
+					 <td>{$v.brand_id}</td>
+                <td><a href="{:U('Admin/Good/upd',array('good_id'=>$v['good_id']))}">修改</a>
+					 </td><td>
+                <a href="javascript:;" onclick="confirmdel({$v.good_id})">删除</a></td>
+            </tr>
+           </foreach>
+   </table>
+	<p style="text-align:center;margin:30px auto">{$pagelist}</p>
+</div>
+<script>
+function confirmdel(id){
+  if(window.confirm('你确定要删除吗？')){
+    location.href="{:U('Admin/Good/del/id/"+id+"')}";
+  }
+}
+</script>
+
+
+
+<include file="Public/footer" />
